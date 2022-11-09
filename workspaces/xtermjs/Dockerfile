@@ -1,4 +1,4 @@
-FROM node:buster
+FROM node:19.0-bullseye-slim
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y emacs-nox vim tmux
